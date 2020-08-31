@@ -4,7 +4,12 @@ $(document).ready(function() {
         
        
       navigation : true, // Show next and prev buttons
- 
+      responsiveClass : true,
+      responsive:{
+        0:{
+            items:1,
+            nav:true
+        },},
       slideSpeed : 300,
       paginationSpeed : 400,
         
