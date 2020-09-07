@@ -6,7 +6,7 @@
     $targetfile = $targetfolder . basename($_FILES["uploadfile"]["name"]);
     $file_type =strtolower(pathinfo($targetfile,PATHINFO_EXTENSION));
     $allowed = array('iges','dxf','dwg','jpg','jpeg','gif','png','pdf','xlsx','doc','docx');
-    echo $allowed;
+    echo $file_type;
     if (in_array($file_type, $allowed)){
         if(move_uploaded_file($_FILES['uploadfile']['tmp_name'], $targetfile))
         {   
