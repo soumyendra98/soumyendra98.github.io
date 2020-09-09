@@ -51,6 +51,8 @@
             $mail->FromName = "SVP Website";
             
             $mail->addAddress("svpplastics@rediffmail.com","SVP Fab");
+            $mail->addAddress("svpplastics@gmail.com","SVP Fab");
+            $mail->addAddress("info@svpfab.com","SVP Fab");
             
             $mail->isHTML(true);
             
