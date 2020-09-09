@@ -50,7 +50,7 @@
             $mail->From = "siddharthdubey323@gmail.com";
             $mail->FromName = "SVP Website";
             
-            $mail->addAddress("svpplastics@rediffmail.com");
+            $mail->addAddress("svpplastics@rediffmail.com","SVP Fab");
             
             $mail->isHTML(true);
             
